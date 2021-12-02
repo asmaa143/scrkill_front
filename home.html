@@ -1,0 +1,441 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport"content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
+
+        <title>
+       Scrail
+        </title>
+        
+        <link rel="stylesheet"href='fontawesome/css/all.min.css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="css/style.css" rel="stylesheet">
+        
+       
+    </head>
+    <body>
+        <!-- start nav bar -->
+        
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="home.html"><img src="images/Capture2.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav m-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                              Products
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul id="myUL">
+                                    <li><span class="caret" style="color: #fdca0e ;">Hair</span>
+                                      <ul class="nested">
+                                        <li><a href="products.html" style="color: rgb(78, 78, 78) !important;">shampoo</a></li>
+                                        <li><a href="products.html" style="color: rgb(78, 78, 78) !important;">hair care</a></li>
+                                        <li><a href="products.html" style="color: rgb(78, 78, 78) !important;">hair color</a></li>
+                                        
+                                      </ul>
+                                    </li>
+                                    <li><span class="caret" style="color: #fdca0e ;">Bath&body</span>
+                                        <ul class="nested">
+                                          <li><a href="products.html" style="color: rgb(78, 78, 78) !important;">body care</a></li>
+                                          <li><a href="products.html" style="color: rgb(78, 78, 78) !important;">candels</a></li>
+                                          
+                                        </ul>
+                                      </li> 
+                                  </ul>
+                             
+                          </li>
+                        
+                        
+                          
+
+                       
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Shop</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="favourite.html">Favourite</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contact us</a>
+                      </li>
+                      </ul>
+                      <ul class="list-icons">
+                          <li>
+                            <a href="#"><i class="fas fa-search"></i></a>
+                          </li>
+                          <li>
+                            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                          </li>
+                          <li>
+                            
+                            <!--Trigger-->
+                        <a class="login-trigger" href="#" data-target="#login" data-toggle="modal"><i class="far fa-user"></i></a>
+
+                         <div id="login" class="modal fade" role="dialog">
+                           <div class="modal-dialog">
+    
+                            <div class="modal-content">
+                              <div class="modal-body">
+                               <button data-dismiss="modal" class="close">&times;</button>
+                               <h4>Login</h4>
+                               <p class="login-para">Lorem Ipsum is simply dummy text of the <br>printing and typesetting industry.</p>
+                               <form>
+                               <input type="text" name="email" class="username form-control" placeholder="E-mail"/>
+                               <input type="password" name="password" class="password form-control" placeholder="password"/>
+                               <input type="checkbox" id="vehicle1" name="keep me signed in" value="keep me signed in">
+                               <label for="vehicle1"> keep me signed in</label><br>
+                               <button class="facebook-btn">facebook</button><button class="gmail-btn">Gmail</button>
+                               <input class="btn login" type="submit" value="log in" />
+                               <p class="member-sign-up">Not a member yet?<a href="#" class="sig-up-link signup-trigger "data-target="#signup" data-toggle="modal" style="color: #262626 !important; font-weight: 600;">sign up</a></p>
+                               </form>
+                              </div>
+                            </div>
+                           </div>  
+                         </div>
+                         <!--  -->
+                         <div id="signup" class="modal fade" role="dialog">
+                          <div class="modal-dialog">
+   
+                           <div class="modal-content">
+                             <div class="modal-body">
+                              <button data-dismiss="modal" class="close">&times;</button>
+                              <p class="signup-para">Creat an account and <br>discovire the benefites</p>
+                              <form>
+                              <input type="text" name="text" class="username form-control" placeholder="First Name"/>
+                              <input type="text" name="text" class="username form-control" placeholder="Last Name"/>
+                              <select class="gender-select">
+                                <option selected hidden style="color: rgb(170, 170, 170) !important; ">Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                              </select>
+                              <input type="text" name="email" class="username form-control" placeholder="E-mail"/>
+                              <input type="password" name="password" class="password form-control" placeholder="password"/>
+                              <input type="password" name="password" class="password form-control" placeholder=" confirm password"/>
+                              <input type="checkbox" id="vehicle1" name="keep me signed in" value="keep me signed in">
+                              <label for="vehicle1"> I agree to the google terms of services and privacy policy</label><br>
+                              
+                              <input class="btn login" type="submit" value="Sign up" />
+                             <p class="text-center"><a href="#" class="sig-up-link signup-trigger text-center " style="color: #262626 !important; font-weight: 600; align-items: center;">Are you a member?</a></p>
+                              </form>
+                             </div>
+                           </div>
+                          </div>  
+                        </div>
+                         <!--  -->
+                          </li>
+                      </ul>
+                    
+                   
+                 
+                 
+                </div>
+              </nav>
+              <script>
+                var toggler = document.getElementsByClassName("caret");
+                var i;
+                
+                for (i = 0; i < toggler.length; i++) {
+                  toggler[i].addEventListener("click", function() {
+                    this.parentElement.querySelector(".nested").classList.toggle("active");
+                    this.classList.toggle("caret-down");
+                  });
+                }
+                </script>
+                
+        <!-- end nav bar -->
+        <!-- start slider sec -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/pexels-porapak-apichodilok-346748.png" class="d-block slider-image w-100" alt="...">
+                <h3 class="slider-title">Choose your colliction<br>
+                     with us</h3>
+                     <button class="shop-now-button1"><i class="fas fa-arrow-right"></i> </button><p class="slider-shop-now">Shop Now</p>
+              </div>
+              
+              <div class="carousel-item ">
+                <img src="images/pexels-porapak-apichodilok-346748.png" class="d-block slider-image w-100" alt="...">
+                <h3 class="slider-title">Choose your colliction<br>
+                     with us</h3>
+                     <button class="shop-now-button1"><i class="fas fa-arrow-right"></i> </button><p class="slider-shop-now">Shop Now</p>
+              </div>
+              <div class="carousel-item ">
+                <img src="images/pexels-porapak-apichodilok-346748.png" class="d-block slider-image w-100" alt="...">
+                <h3 class="slider-title">Choose your colliction<br>
+                     with us</h3>
+                     <button class="shop-now-button1"><i class="fas fa-arrow-right"></i> </button><p class="slider-shop-now">Shop Now</p>
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev" style="border: unset; opacity: 0;">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next" style="border: unset;opacity: 0;">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </button>
+            <div class="second-sec py-4">
+                <div class="container">
+                    <div class="row row-second-sec">
+                        <div class="col col-md-4 col-lg-4">
+                            <div class="media">
+                                <img src="images/noun_Happy_-3.png" class="media-image">
+                                <div class="media-body">
+                                  <h5 class="mt-0">Free Shipping</h5>
+                                  <p>on purchases over 199$</p>
+                                </div>
+                              </div>
+                            
+    
+                        </div>
+                        <div class="col col-md-4 col-lg-4">
+                            <div class="media">
+                                <img src="images/noun_Happy_-3.png" class="media-image">
+                                <div class="media-body">
+                                  <h5 class="mt-0">99% satisfied customers</h5>
+                                  <p>our clientes' opinions <br>
+                                speack for themselfes</p>
+                                </div>
+                              </div>
+                            
+    
+                        </div>
+                        <div class="col col-md-4 col-lg-4">
+                            <div class="media">
+                                <img src="images/noun_guarantee_-17.png" class="media-image">
+                                <div class="media-body">
+                                  <h5 class="mt-0">Orginality Guarantee</h5>
+                                  <p>30 days warranty for each<br>products from our store</p>
+                                </div>
+                              </div>
+                            
+    
+                        </div>
+                        
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+          </div>
+        <!-- end slider sec -->
+       <!-- start why choose us sec -->
+       <div class="why-choose-us-sec py-4 mt-4">
+           <div class="container">
+               <h3>Why  Should You Choose Us?</h3>
+               <div class="row py-4">
+                   <div class="col">
+                       <img src="images/noun_payment_-7.png" class="image-shipping-car">
+                       <h6>Free Shipping</h6>
+                       <p>All purchases over 199$ are eligible for<br>free Shipping via USPS first class mail</p>
+
+
+                   </div>
+                   <div class="col">
+                    <img src="images/noun_payment_-7.png" class="image-payment">
+                    <h6>Easy payment</h6>
+                    <p>All purchases over 199$ are eligible for<br>free Shipping via USPS first class mail</p>
+
+
+                </div>
+                <div class="col">
+                    <img src="images/noun_guarantee_-2.png" class="image-guarantee">
+                    <h6>Money-Back Guarantee</h6>
+                    <p>All purchases over 199$ are eligible for<br>free Shipping via USPS first class mail</p>
+
+
+                </div>
+                <div class="col">
+                    <img src="images/noun_materials_-1.png" class="image-materials">
+                    <h6>Finest Quality</h6>
+                    <p>All purchases over 199$ are eligible for<br>free Shipping via USPS first class mail</p>
+
+
+                </div>
+
+               </div>
+
+           </div>
+
+       </div>
+       <!-- end why choose us sec -->
+       <!-- start product sec -->
+       <div class="product-sec py-4">
+           <div class="container">
+               <div class="row">
+                   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-women-wear mt-3">
+                       <img src="images/pexels-coach-jerryking-12.png" >
+                       <h4 class="title-1">New arrivals<br> are now in!</h4>
+                       <button class="show-colliction">Show Colliction</button>
+
+                   </div>
+                   <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-women-wear mt-3">
+                    <img src="images/pexels-yan-krukov-2.png">
+                    <h4 class="title-1">Cross bag<br>29.99$</h4>
+                    <button class="show-colliction">More details</button>
+
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-women-wear mt-3">
+                    <img src="images/pexels-danang-wicaksono-1.png">
+                    <h4 class="title-1">Sale this<br> summer</h4>
+                    <button class="show-colliction">View all</button>
+
+                </div>
+
+               </div>
+
+           </div>
+
+       </div>
+       <!-- end product sec -->
+       <!-- start -->
+       
+    
+       <!-- end -->
+       <!-- start products in today sec -->
+       <div class="products-in-today-sec py-4">
+           <div class="container">
+               <h3>Products In Today</h3>
+               <div class="row">
+                   <div class="col col-lg-3">
+                       <img src="images/pexels-the-lazy-artist-gallery-1108602.png">
+                       <a href="#"><h6>Basic Slim  Fit T-Shirt</h6></a>
+                       <p>78.99$</p>
+
+                   </div>
+                   <div class="col col-lg-3">
+                    <img src="images/pexels-rodnae-productions-12.png">
+                    <a href="#"><h6>Basic Slim  Fit T-Shirt</h6></a>
+                    <p>78.99$</p>
+
+                </div>
+                <div class="col col-lg-3">
+                    <img src="images/pexels-karolina-grabowska-19.png">
+                    <a href="#"><h6>Basic Slim  Fit T-Shirt</h6></a>
+                    <p>78.99$</p>
+
+                </div>
+                <div class="col col-lg-3">
+                    <img src="images/pexels-madison-inouye-5.png">
+                    <a href="#"><h6>Basic Slim  Fit T-Shirt</h6></a>
+                    <p class="old-price"> <span >50.5$</span>  78.99$</p>
+
+                </div>
+                   
+               </div>
+
+           </div>
+
+       </div>
+       <!-- end products in today sec -->
+       <!-- start subscribe sec -->
+       <div class="subscribe-sec py-4">
+           <div class="container container-1">
+               <div class="row py-4">
+                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                       <h4>Subscribe to our newsletter and <br>receive exclusive offers every week</h4>
+
+
+                   </div>
+                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control " type="search" placeholder="Enter your email" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SUBSCRIBE</button>
+                      </form>
+                    
+
+                </div>
+
+               </div>
+
+           </div>
+
+       </div>
+       <!-- end subscribe sec -->
+       <!-- start footer -->
+       <div class="footer py-4">
+           <div class="container">
+               <div class="row">
+                   <div class="col col-lg-6">
+                       <img src="images/Capture1.PNG" class="logo">
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        <a href="#"><i class="fab fa-instagram"></i></a> <a href="#"><i class="fab fa-facebook-square"></i></a><a href="#"><i class="fab fa-twitter-square"></i></a>
+                   </div>
+                   <div class="col col-lg-6">
+                       <div class="row">
+                           <div class="col-sx-12 col-sm-12 col-md-12 col-lg-4">
+                               <h4>Shopping Online</h4>
+                               <ul>
+                                   <li><a href="#">Order Status</a></li>
+                                   <li><a href="#">Shipping and Delivery</a></li>
+                                   <li><a href="#">Returns</a></li>
+                                   <li><a href="#">Payment option</a></li>
+                                   <li><a href="#">Contact us</a></li>
+
+                               </ul>
+
+                           </div>
+                           <div class="col-sx-12 col-sm-12 col-md-12 col-lg-4">
+                            <h4>information</h4>
+                            <ul>
+                                <li><a href="#">Gift Cards</a></li>
+                                <li><a href="#">Find a store</a></li>
+                                <li><a href="#">Newsletter</a></li>
+                                <li><a href="#">Became a member</a></li>
+                                <li><a href="#">Site feedback</a></li>
+
+                            </ul>
+
+                        </div>
+                        <div class="col-sx-12 col-sm-12 col-md-12 col-lg-4">
+                            <h4>Contact</h4>
+                            <ul>
+                                <li><a href="#">store@uikit.com</a></li>
+                                <li><a href="#">Hotline:+1131138138</a></li>
+                                
+
+                            </ul>
+
+                        </div>
+
+                       </div>
+
+                </div>
+
+               </div>
+               
+
+           </div>
+           <div class="line"></div>
+           <h6 class="text-center copy-right-title">DESIGN BY ICEO.COM-©2019.ALL RIGHTS RESERVED</h6>
+         
+
+       </div>
+       <!-- end footer -->
+
+
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+    </html>
+
